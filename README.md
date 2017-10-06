@@ -29,9 +29,11 @@
 
 > A chave pública, cujo a extensão é .pub, deve ser copiado para o servidor e o seu conteúdo é algo como:
 *ssh-rsa AAAAB3NzaC1yc2EAAAADAQA .....*
+
 > A chave privada tem o seguinte conteúdo:
 *-----BEGIN RSA PRIVATE KEY-----MIIJKQIBAAKCAgEAzpHUcAE5w5e49Qw2S4cp17OmsIc1D8yfNR7y/ZLsf0382zsw.....*
-> Passo a passo:
+
+### Passo a Passo para adicionar chave no Servidor:
 * Vá nas configurações(settings) do seu usuário, no GitHub, BitBucket ou GitLab e procure por *SSH and GPG keys* ou similar. Você precisa adicionar uma nova Key(New SH Key);
 * Copie todo o conteúdo do arquivo id_rsa.pub (naquela pasta "~/.ssh/", que foi criada) e cole na area Key, da pagina que você abriu;
 * Existe um campo Title que você usa para identificar qual key é qual (geralmente eu coloco um identificador para cada PC, ex: PC Casa, PC Work.)
