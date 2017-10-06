@@ -40,5 +40,4 @@
 * Clique em submit ou Add SH Key.
 
 > Sua chave foi inserida com sucesso. :)
-
 > Agora você pode dar *git clone* com o link do SSH.
