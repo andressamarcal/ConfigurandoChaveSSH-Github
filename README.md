@@ -38,3 +38,7 @@
 * Copie todo o conteúdo do arquivo id_rsa.pub (naquela pasta "~/.ssh/", que foi criada) e cole na area Key, da pagina que você abriu;
 * Existe um campo Title que você usa para identificar qual key é qual (geralmente eu coloco um identificador para cada PC, ex: PC Casa, PC Work.)
 * Clique em submit ou Add SH Key.
+
+> Sua chave foi inserida com sucesso. :)
+
+> Agora você pode dar *git clone* com o link do SSH.
