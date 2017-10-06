@@ -21,6 +21,6 @@
 
 >Explicando o comando acima:
 
-1. Parâmetro -t específica o tipo de chave nesse caso usamos o algoritmo rsa para protocolo versão 2 outros possíveis valores são rsa1, dsa e ecdsa.
-2. Parâmetro -C adiciona um comentário à chave pública, é apenas uma maneira fácil de identificar a finalidade desta chave, o valor pode ser user@host.
-3. Parâmetro -b informa key size ou total de bits. O padrão é 2048, geralmente esse valor já é o suficiente para sua chave se quiser mais segurança use o valor máximo 4096.
+* Parâmetro -t específica o tipo de chave nesse caso usamos o algoritmo rsa para protocolo versão 2 outros possíveis valores são rsa1, dsa e ecdsa.
+* Parâmetro -C adiciona um comentário à chave pública, é apenas uma maneira fácil de identificar a finalidade desta chave, o valor pode ser user@host.
+* Parâmetro -b informa key size ou total de bits. O padrão é 2048, geralmente esse valor já é o suficiente para sua chave se quiser mais segurança use o valor máximo 4096.
