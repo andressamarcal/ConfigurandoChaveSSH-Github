@@ -11,9 +11,16 @@
 
 * Não tenho chave SSH, como configuro?
 > Use o comando:
-> `ssh-keygen -t rsa -b 4096 -C "your_email@example.com"`
+> `ssh-keygen -t rsa -b 4096 -C "seuemail@example.com"`
 > A única coisa que você pode alterar ali é o argumento -C, ele cria comentários na chave. (Confie em mim, você vai precisar saber isso.)
-Nesse ponto, você vai receber uma mensagem de qual pasta você quer salvar sua key, NÃO ALTERE-A!
-Agora você terá que especificar uma senha, mas ela não é obrigatória. Como é sua primeira vez, apenas aperte enter, mas lembre-se que colocar uma senha vai tornar o processo mais seguro...
 
-Pronto, agora você tem sua SSH Key no seu computador.
+> Nesse ponto, você vai receber uma mensagem de qual pasta você quer salvar sua key, NÃO ALTERE-A!
+> Agora você terá que especificar uma senha, mas ela não é obrigatória. Como é sua primeira vez, apenas aperte enter, mas lembre-se que colocar uma senha vai tornar o processo mais seguro...
+
+>Pronto, agora você tem sua SSH Key no seu computador.
+
+>Explicando o comando acima:
+
+1. Parâmetro -t específica o tipo de chave nesse caso usamos o algoritmo rsa para protocolo versão 2 outros possíveis valores são rsa1, dsa e ecdsa.
+2. Parâmetro -C adiciona um comentário à chave pública, é apenas uma maneira fácil de identificar a finalidade desta chave, o valor pode ser user@host.
+3. Parâmetro -b informa key size ou total de bits. O padrão é 2048, geralmente esse valor já é o suficiente para sua chave se quiser mais segurança use o valor máximo 4096.
